@@ -45,6 +45,21 @@ nav a:hover {
   color: #fff;
 }
 
+.nav-x {
+  background: #fff;
+  color: #1a1a2e;
+  padding: 0.15rem 0.6rem;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.85rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.nav-x:hover {
+  background: #ccc;
+  color: #000;
+}
+
 /* Hero */
 .hero {
   background: linear-gradient(135deg, #1a1a2e, #16213e);
@@ -206,4 +221,13 @@ footer {
   background: #1a1a2e;
   color: #666;
   font-size: 0.85rem;
+}
+
+footer a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
 }
