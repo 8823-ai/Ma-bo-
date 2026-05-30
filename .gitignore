@@ -1,0 +1,43 @@
+# Claude Code: 個人・マシン固有の設定は共有しない
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 依存関係
+node_modules/
+.pnp
+.pnp.js
+
+# ビルド成果物
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# 環境変数（秘密情報）
+.env
+.env.local
+.env.*.local
+
+# ログ
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# テスト / カバレッジ
+coverage/
+.nyc_output/
+
+# 一時ファイル
+tmp/
+temp/
+*.tmp
