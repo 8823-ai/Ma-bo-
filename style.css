@@ -214,6 +214,53 @@ nav a.active {
   line-height: 1.8;
 }
 
+.post-title {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #1a1a2e;
+}
+
+.post-body {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.8;
+}
+
+.post-body p {
+  margin-bottom: 0.8rem;
+}
+
+.post-body hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 1.5rem 0;
+}
+
+.post-body h4 {
+  font-size: 0.95rem;
+  color: #1a1a2e;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.post-body ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.post-body ul li {
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.post-body a {
+  color: #2a6496;
+  text-decoration: underline;
+}
+
+.post-body a:hover {
+  color: #1a1a2e;
+}
+
 /* Footer */
 footer {
   text-align: center;
